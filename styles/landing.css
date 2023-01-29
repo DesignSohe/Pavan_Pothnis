@@ -317,7 +317,7 @@
 }
 
 /* Tablet Screens */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 760px) {
 
   body {
     background-color: black;
