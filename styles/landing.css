@@ -38,7 +38,9 @@
 
 
   #name {
-    font-family:'Courier New', Courier, monospace ;
+    font-family:'Times New Roman',
+      Times,
+      serif;
   }
 
   .explorebutton {
@@ -144,7 +146,9 @@
 
 
   #name {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman',
+      Times,
+      serif;
   }
 
   .explorebutton {
@@ -250,7 +254,9 @@
 
 
   #name {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman',
+      Times,
+      serif;
   }
 
   .explorebutton {
@@ -356,7 +362,7 @@
 
 
   #name {
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
   }
 
   .explorebutton {
