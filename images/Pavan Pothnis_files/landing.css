@@ -1,0 +1,428 @@
+/* Mobile Screens */
+@media only screen and (max-width: 415px) {
+
+  body {
+    background-color: black;
+  }
+
+  .Name {
+    height: 100vh;
+    background: url("../images/LandingPage2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0%;
+    padding-bottom: 150px;
+  }
+
+  .intro1 {
+    color: chocolate;
+    padding-left: 0%;
+    padding-right: 30%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+  }
+
+  .intro {
+    color: bisque;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 100%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+
+  #name {
+    font-family: cursive;
+  }
+
+  .explorebutton {
+    background-color: coral;
+    color: black;
+    border: 2px solid coral;
+  }
+
+  .detailsbutton {
+    background-color: lightcoral;
+    color: whitesmoke;
+    border: 2px solid lightcoral;
+  }
+
+  .wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    10% {
+      transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+
+    30% {
+      transform: rotate(14deg);
+    }
+
+    40% {
+      transform: rotate(-4deg);
+    }
+
+    50% {
+      transform: rotate(10deg);
+    }
+
+    60% {
+      transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+}
+
+/* IPad Screens */
+@media only screen and (max-width: 1000px) {
+
+  body {
+    background-color: black;
+  }
+
+  .Name {
+    height: 100vh;
+    background: url("../images/LandingPage2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0%;
+    padding-bottom: 150px;
+  }
+
+  .intro1 {
+    color: chocolate;
+    padding-left: 0%;
+    padding-right: 30%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+  }
+
+  .intro {
+    color: bisque;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 100%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+
+  #name {
+    font-family: cursive;
+  }
+
+  .explorebutton {
+    background-color: coral;
+    color: black;
+    border: 2px solid coral;
+  }
+
+  .detailsbutton {
+    background-color: lightcoral;
+    color: whitesmoke;
+    border: 2px solid lightcoral;
+  }
+
+  .wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    10% {
+      transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+
+    30% {
+      transform: rotate(14deg);
+    }
+
+    40% {
+      transform: rotate(-4deg);
+    }
+
+    50% {
+      transform: rotate(10deg);
+    }
+
+    60% {
+      transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+}
+
+
+
+/* IPad Pro Screens */
+@media only screen and (max-width: 1300px) {
+
+  body {
+    background-color: black;
+  }
+
+  .Name {
+    height: 100vh;
+    background: url("../images/LandingPage2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0%;
+    padding-bottom: 150px;
+  }
+
+  .intro1 {
+    color: chocolate;
+    padding-left: 0%;
+    padding-right: 30%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+  }
+
+  .intro {
+    color: bisque;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 100%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+
+  #name {
+    font-family: cursive;
+  }
+
+  .explorebutton {
+    background-color: coral;
+    color: black;
+    border: 2px solid coral;
+  }
+
+  .detailsbutton {
+    background-color: lightcoral;
+    color: whitesmoke;
+    border: 2px solid lightcoral;
+  }
+
+  .wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    10% {
+      transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+
+    30% {
+      transform: rotate(14deg);
+    }
+
+    40% {
+      transform: rotate(-4deg);
+    }
+
+    50% {
+      transform: rotate(10deg);
+    }
+
+    60% {
+      transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+}
+
+
+
+/* IPad Pro Screens */
+@media only screen and (max-width: 2600px) {
+
+  body {
+    background-color: black;
+  }
+
+  .Name {
+    height: 100vh;
+    background: url("../images/LandingPage2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0%;
+    padding-bottom: 150px;
+  }
+
+  .intro1 {
+    color: chocolate;
+    padding-left: 0%;
+    padding-right: 30%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+  }
+
+  .intro {
+    color: bisque;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 100%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+
+  #name {
+    font-family: cursive;
+  }
+
+  .explorebutton {
+    background-color: coral;
+    color: black;
+    border: 2px solid coral;
+  }
+
+  .detailsbutton {
+    background-color: lightcoral;
+    color: whitesmoke;
+    border: 2px solid lightcoral;
+  }
+
+  .wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    10% {
+      transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+
+    30% {
+      transform: rotate(14deg);
+    }
+
+    40% {
+      transform: rotate(-4deg);
+    }
+
+    50% {
+      transform: rotate(10deg);
+    }
+
+    60% {
+      transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+}
+
